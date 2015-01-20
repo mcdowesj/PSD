@@ -27,7 +27,7 @@ public class MyTestClass {
     @Test
     public void testIsListPrime(){
         MyClass mc = new MyClass();
-        int [] nums = {1,3,5};
+        int[] nums = {1, 3, 7};
         Assert.assertEquals(mc.isListPrime(nums), true);
 
     }
