@@ -1,28 +1,26 @@
-
-
-/*import org.junit.*;
+import org.junit.Assert;
+import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-import static org.junit.Assert.assertEquals;*/
 
 /**
  * Created by smcdowell on 20/01/2015.
  */
 public class MyTestClass {
-/*
+
     @Test
     public void testConcat(){
         MyClass mc = new MyClass();
         String result = mc.concat("one", "two");
-        assertEquals(result, "onetwo");
+        Assert.assertEquals(result, "onetwo");
     }
 
     @Test
     public void testIsPrime(){
       MyClass mc = new MyClass();
-        assertEquals(mc.isPrime(23), true);
+        Assert.assertEquals(mc.isPrime(23), true);
     }
 
 
@@ -30,7 +28,7 @@ public class MyTestClass {
     public void testIsListPrime(){
         MyClass mc = new MyClass();
         int [] nums = {1,3,5};
-        assertEquals(mc.isListPrime(nums), true);
+        Assert.assertEquals(mc.isListPrime(nums), true);
 
     }
 
@@ -49,7 +47,7 @@ public class MyTestClass {
         Collections.sort(sorted);
         List<String> maybeSorted = mc.listSorter(strings);
 
-        assertEquals(maybeSorted, sorted);
+        Assert.assertEquals(maybeSorted, sorted);
 
-    }*/
+    }
 }
