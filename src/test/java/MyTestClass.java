@@ -1,15 +1,17 @@
-import static org.junit.Assert.*;
-import org.junit.*;
+
+
+/*import org.junit.*;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import static org.junit.Assert.assertEquals;*/
 
 /**
  * Created by smcdowell on 20/01/2015.
  */
 public class MyTestClass {
-
+/*
     @Test
     public void testConcat(){
         MyClass mc = new MyClass();
@@ -49,5 +51,5 @@ public class MyTestClass {
 
         assertEquals(maybeSorted, sorted);
 
-    }
+    }*/
 }
